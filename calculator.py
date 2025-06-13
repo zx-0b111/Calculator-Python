@@ -1,7 +1,7 @@
 import pyfiglet
 
 logo = pyfiglet.figlet_format("ZX-0B111", font="standard")
-print(logo)
+print(f'\033[32m{logo}\033[0m')
 
 print("0. Soma")
 print("1. Subtração")
